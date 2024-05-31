@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#94EE6B"
+    android:orientation="vertical"
+    tools:context=".SuaXoaGhiChu">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#B2E19C"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:id="@+id/btnQuayLai"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/baseline_arrow_back_24"
+            android:backgroundTint="#B1E09B"/>
+        <Button
+            android:gravity="center"
+            android:id="@+id/btnXoa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/baseline_delete_24"
+            android:backgroundTint="#B1E09B"/>
+
+
+        <Button
+            android:id="@+id/btnSua"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#B1E09B"
+            android:drawableRight="@drawable/baseline_check_24" />
+    </LinearLayout>
+    <EditText
+        android:id="@+id/edtTieuDe"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:backgroundTint="#B2E19C"
+        android:hint="Tiêu đề: "
+        android:paddingLeft="30dp"
+        android:textSize="30dp" />
+    <EditText
+        android:id="@+id/edtNhacNho"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:backgroundTint="#B2E19C"
+        android:paddingLeft="30dp"
+        />
+
+
+        <Spinner
+            android:id="@+id/spLoaiNN"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:backgroundTint="#B2E19C"
+            android:paddingLeft="30dp" />
+    <EditText
+        android:id="@+id/edtNDGhiChu"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_weight="1"
+        android:backgroundTint="#B2E19C"
+        android:gravity="top"
+        android:hint="Nội dung ghi chú: "
+        android:paddingLeft="30dp"
+        android:textSize="30dp"
+
+
+        />
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#C4E89F"
+        android:gravity="center_vertical"
+
+
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/btnChu"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/anh_chu"
+            android:layout_marginEnd="10dp" />
+
+
+        <Button
+            android:id="@+id/btnToDoList"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/to_do_list"
+
+
+            android:layout_marginEnd="10dp"
+            />
+
+
+        <Button
+            android:id="@+id/btnIcon"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/iocn"
+            android:layout_weight="1"/>
+
+
+        <Button
+            android:id="@+id/btnImage"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/anh"
+            android:layout_weight="1"
+            android:layout_marginStart="10dp"
+            />
+
+
+        <Button
+            android:id="@+id/btnNhacNho"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/anh_nhac_nho"
+            android:layout_weight="1"
+            android:layout_marginStart="10dp"/>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
+
+
+

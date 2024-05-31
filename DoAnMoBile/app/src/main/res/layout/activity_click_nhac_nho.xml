@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#94EE6B"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#B2E19C"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnBlack"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#B1E09B"
+            android:drawableLeft="@drawable/baseline_arrow_back_24" />
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#B1E09B"
+            android:drawableRight="@drawable/baseline_check_24" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="120dp"
+        android:background="@drawable/custom_button_background"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center_horizontal"
+            android:text="Nhắc nhở"
+            android:textColor="#04264C"
+            android:textSize="37dp" />
+
+        <Button
+            android:id="@+id/datePickerButton"
+            style="?android:spinnerStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#CD9BD5"
+            android:gravity="center_horizontal"
+            android:onClick="openDatePicker"
+            android:text="00/00/0000"
+            android:textSize="40dp" />
+
+        <Button
+            android:id="@+id/selectTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#CD9BD5"
+            android:gravity="center_horizontal"
+            android:onClick="selectTime"
+            android:text="00:00"
+            android:textSize="40dp" />
+
+        <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal">
+           <Button
+               android:id="@+id/btnOK"
+               android:layout_width="120dp"
+               android:layout_height="80dp"
+               android:layout_gravity="center"
+               android:layout_marginTop="20dp"
+               android:backgroundTint="#D12828"
+               android:text="OK"
+               android:textSize="20dp"
+               android:layout_margin="30dp"
+
+               android:layout_weight="1"/>
+           <Button
+               android:id="@+id/btnHuy"
+               android:layout_width="120dp"
+               android:layout_height="80dp"
+               android:layout_gravity="center"
+               android:layout_marginTop="20dp"
+               android:backgroundTint="#D12828"
+               android:text="Hủy"
+               android:textSize="20dp"
+               android:layout_weight="1"
+               android:layout_margin="30dp"/>
+       </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

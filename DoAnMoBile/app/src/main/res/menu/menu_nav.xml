@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/Them"
+        android:icon="@drawable/baseline_add_circle_outline_24"
+        android:title="Thêm ghi chú mới" />
+    <item
+        android:id="@+id/DanhSach"
+        android:icon="@drawable/baseline_format_list_bulleted_24"
+        android:title="Danh sách ghi chú " />
+
+    <item
+        android:id="@+id/NhacNho"
+        android:icon="@drawable/anh_nhac_nho"
+        android:title="Danh sách nhắc nhở" />
+    <item
+        android:id="@+id/ToDoList"
+        android:icon="@drawable/to_do_list"
+        android:title="To Do List" />
+
+    <item
+        android:id="@+id/love"
+        android:icon="@drawable/love"
+        android:title="Tìm kiếm ghi chú " />
+
+
+    <item
+        android:id="@+id/mnThoat"
+        android:icon="@drawable/baseline_power_settings_new_24"
+        android:title="Thoát" />
+</menu>
